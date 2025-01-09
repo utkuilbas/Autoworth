@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #413f40, #4a484a, #545154, #5c5b5f, #65656a, #6d6f75, #767a7f, #7f8589, #8b9295, #98a0a1, #a6adae, #b4bbba);
+    background-size: cover;
+    color: #E0E0E0;
+}
+
+.container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 100px auto;
+    background: rgba(20, 20, 20, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.statistics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    background: rgba(30, 30, 30, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.stat-image {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.stat-image:hover {
+    transform: scale(1.05);
+}
+
+.stat-title {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #B0BEC5;
+    font-weight: 400;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #bbb;
+}
