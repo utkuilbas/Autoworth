@@ -23,7 +23,7 @@ Autoworth is a machine learning-based application designed to predict the resale
    ```
 3. Start the Flask server:
    ```bash
-   python app.py
+   python main.py
    ```
 4. Open the application in your browser at `http://127.0.0.1:5000`.
 
