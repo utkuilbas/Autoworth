@@ -1,4 +1,4 @@
-# Autoworth 🚗💰
+# Autoworth 
 Autoworth is a machine learning-based application designed to predict the resale value of used cars. By analyzing various car features, the app helps users get an accurate price estimation for their vehicles.
 
 ## Features
