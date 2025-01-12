@@ -15,7 +15,7 @@ Autoworth is a machine learning-based application designed to predict the resale
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/autoworth.git
+   git clone https://github.com/utkuilbas/autoworth.git
    ```
 2. Install the required packages:
    ```bash
